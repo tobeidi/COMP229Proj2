@@ -1,0 +1,95 @@
+<div class="container">
+    <h1><%= title %></h1>
+
+    <div class="d-flex align-items-start mb-2">
+        <div class="col">    
+            <h3>Address:</h3>
+            <h4><span>123 somewhere st.</span></h4>
+            <h4><span>Toronto, ON</span></h4>
+            <h4><span>X1X Y2Y - Canada</span></h4>
+        </div>
+        <div class="col">    
+            <h4> &#128222;: 1-800-222-3333</h4>
+            <h4><span>&#128232;: info@domain.ca</span></h4>
+            <h4><span> &#128187;: www.domain.ca</span></h4>
+        </div>
+    </div>
+    <div class="col"><img src="./content/images/map.jpg" class="img-fluid" alt="google map of location"> </div>
+
+
+<!--Section: Contact v.2-->
+    <section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-start my-4">Say Hi</h2>
+    <!--Section description-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-3">
+            <form id="contact-form" name="contact-form" action="/home" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary">Send</a>
+                    <br><br><br>
+                </div>
+            </form>
+
+
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+    </div>
+
+    </section>
+
+</div>
