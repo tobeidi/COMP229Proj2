@@ -5,7 +5,7 @@ export function AuthGuard(req, res, next){
     next();
 }
 
-export function UDisplayName(req){
+export function UserDisplayName(req){
     if(req.user){
         return req.user.displayName;
     }
